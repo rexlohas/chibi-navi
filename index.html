@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日語學習資源導航 | 適合外國人的 JLPT N5 至 N1 學習指引 (基於 ちびむすドリル)</title>
+  
+  <meta name="description" content="本網站精選日本優質免費學習素材網站「ちびむすドリル」(Chibimusu Drill) 的資源，為外國日語學習者重新映射並歸納出適合 JLPT N5 至 N1 各階段的五十音、漢字、文法與讀解練習，提供免費且系統化的日語學習導航。">
+  <meta name="keywords" content="日語學習, JLPT, N5, N4, N3, N2, N1, 漢字練習, 日文讀解, 五十音, 免費日文教材, ちびむすドリル">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="日語學習資源導航 | JLPT N5 - N1 免費教材傳送門">
+  <meta property="og:description" content="精選 Chibimusu Drill (ちびむすドリル) 日本小中學免費國語教材，為外國日語學習者精準分類為 JLPT N5 到 N1 級別，助你自學日文更高效。">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Sticky Glassmorphism Header -->
+  <header class="site-header" id="main-header">
+    <div class="header-inner">
+      <h1 class="brand" id="site-logo">
+        ちびNavi <span>JLPT 學習資源導航</span>
+      </h1>
+      <a href="https://happylilac.net/" target="_blank" rel="noopener noreferrer" class="card-btn" style="width: auto; min-height: auto; padding: 0.5rem 1rem; font-size: 0.85rem;" id="link-chibimusu-drill">
+        ちびむすドリル 官網 ↗
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="app-container">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero-area">
+      <h2 class="hero-title" id="hero-main-title">
+        從零到高級，系統化掌握<span>日文讀寫</span>
+      </h2>
+      <p class="hero-subtitle" id="hero-sub-title">
+        我們將日本小學生與國中生的語文練習素材，依難度精準對應至 JLPT 各級別。點擊卡片直接前往官方下載 PDF，並可在此標記你的學習進度！
+      </p>
+      
+      <!-- Live Search Box -->
+      <div class="search-wrapper">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input type="text" class="search-input" id="search-bar" placeholder="輸入關鍵字搜尋... (例如：漢字、助詞、讀解)" aria-label="搜尋日語學習教材">
+      </div>
+    </section>
+
+    <!-- JLPT Level Navigation (Tabs) -->
+    <nav class="tabs-nav" aria-label="JLPT 級別導航" id="level-tabs-container">
+      <button class="tab-btn active" data-level="n5" id="btn-n5">
+        N5 <span>初級入門</span>
+      </button>
+      <button class="tab-btn" data-level="n4" id="btn-n4">
+        N4 <span>初級基礎</span>
+      </button>
+      <button class="tab-btn" data-level="n3" id="btn-n3">
+        N3 <span>中級日常</span>
+      </button>
+      <button class="tab-btn" data-level="n2" id="btn-n2">
+        N2 <span>中高級應用</span>
+      </button>
+      <button class="tab-btn" data-level="n1" id="btn-n1">
+        N1 <span>高級學術</span>
+      </button>
+    </nav>
+
+    <!-- Progress Tracker Banner -->
+    <section class="progress-banner" aria-label="個人學習進度統計" id="progress-statistics-banner">
+      <div class="progress-header">
+        <h3 class="progress-title" id="progress-stats-title">個人學習進度</h3>
+        <span class="progress-stats" id="progress-percentage-label">已完成: 0 / 0 (0%)</span>
+      </div>
+      <div class="progress-bar-bg" id="progress-bar-container">
+        <div class="progress-bar-fill" id="progress-bar-fill" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </section>
+
+    <!-- Dynamic Learning Material List Grid -->
+    <main id="materials-container" aria-live="polite">
+      <!-- Generated dynamically by app.js -->
+    </main>
+
+  </div>
+
+  <!-- Page Footer -->
+  <footer class="site-footer" id="main-footer">
+    <div class="footer-links">
+      <a href="https://happylilac.net/zikosyoukai.html" target="_blank" rel="noopener noreferrer">ちびむすドリル 使用條款</a>
+      <span>|</span>
+      <a href="https://happylilac.net/p-p.html" target="_blank" rel="noopener noreferrer">隱私權政策</a>
+    </div>
+    <p style="margin-bottom: 0.5rem;">
+      本網站非 ちびむすドリル (Chibimusu Drill) 官方網站，僅為外國日語學習者提供教材的分類導航。
+    </p>
+    <p style="font-size: 0.8rem; opacity: 0.7;">
+      所有學習單 PDF 檔案之智慧財產權與著作權皆歸屬原作者及 <strong>パディンハウス (PadinHouse)</strong> 所有。
+    </p>
+    <p style="margin-top: 1rem; font-size: 0.8rem;">
+      &copy; 2026 ちびNavi. Designed with ❤️ for Japanese learners.
+    </p>
+  </footer>
+
+  <!-- Script File -->
+  <script src="app.js"></script>
+</body>
+</html>
